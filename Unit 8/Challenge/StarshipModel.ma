@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: StarshipModel.ma
-//Last modified: Tue, Apr 02, 2024 11:31:35 PM
+//Last modified: Tue, Apr 02, 2024 11:33:24 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 10 Enterprise v2009 (Build: 19045)";
-fileInfo "UUID" "B8B10CA4-41C5-D016-33EB-F4B4F0C68954";
+fileInfo "UUID" "5DBFE8EF-4169-9DB2-F2AA-5CADBF7FA6E9";
 createNode transform -s -n "persp";
 	rename -uid "8689AE69-44EF-4C21-19F9-3A92A6650B66";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 16.849398112935113 16.538850945751694 11.817404124841932 ;
-	setAttr ".r" -type "double3" 685.80000000006567 4003.9999999982356 -4.4214913172767533e-15 ;
+	setAttr ".t" -type "double3" 15.815127880491978 16.351985257414718 12.903442609088883 ;
+	setAttr ".r" -type "double3" 686.40000000006432 3999.1999999980912 0 ;
 	setAttr ".rp" -type "double3" 5.6843418860808016e-16 -3.6948222259525211e-15 -1.8189894035458565e-14 ;
 	setAttr ".rpt" -type "double3" 1.5176772633286137e-15 2.8521165394527488e-16 1.3276445673557809e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -27564,7 +27564,7 @@ createNode polyMapDel -n "polyMapDel12";
 	setAttr ".uopa" yes;
 	setAttr ".ics" -type "componentList" 2 "f[0:150]" "f[153:1929]";
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "34E67443-4A59-A01A-6DFA-978319FE2E43";
+	rename -uid "0C8C7A59-45EE-3F8F-91D5-33BB5054DAAE";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
